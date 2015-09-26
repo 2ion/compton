@@ -1,0 +1,37 @@
+Source: compton
+Section: x11
+Priority: extra
+Maintainer: Jens John <dev@2ion.de>
+Build-Depends:
+ asciidoc,
+ debhelper (>= 9.0.0),
+ docbook-xml,
+ docbook-xsl,
+ libconfig-dev,
+ libdbus-1-dev,
+ libdrm-dev,
+ libgl1-mesa-dev,
+ libpcre3-dev,
+ libx11-dev,
+ libxcomposite-dev,
+ libxdamage-dev,
+ libxext-dev,
+ libxfixes-dev,
+ libxinerama-dev,
+ libxml2-utils,
+ libxrandr-dev,
+ libxrender-dev,
+ pkg-config,
+ xsltproc
+Standards-Version: 3.9.4
+Homepage: https://github.com/chjj/compton
+
+Package: compton
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends}
+Description: compositor for X11, based on xcompmgr
+ compton is a compositor for X11, based on xcompmgr. In addition to shadows,
+ fading and translucency, compton implements window frame opacity control,
+ inactive window transparency, and shadows on argb windows.

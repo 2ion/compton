@@ -1,0 +1,21 @@
+compton (0.1~beta2+82-1) bunsen-hydrogen; urgency=medium
+
+  * Import upstream release from git
+
+ -- Jens John <dev@2ion.de>  Sat, 26 Sep 2015 21:39:47 +0200
+
+compton (0.1~beta2-1) unstable; urgency=low
+
+  * New upstream release, 0.1~beta2.
+  * Drop unnecessary dependency on hardening-wrapper.
+  * Add libxinerama-dev dependency due to upstream changes.
+  * Change licence tag to Expat.
+  * Update patches.
+
+ -- Scott Leggett <scott@sl.id.au>  Sun, 03 Nov 2013 19:55:25 +1100
+
+compton (0.1~beta1-1) unstable; urgency=low
+
+  * Initial release (Closes: #679551)
+
+ -- Scott Leggett <scott@sl.id.au>  Wed, 21 Aug 2013 20:13:37 +1000

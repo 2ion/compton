@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+# Set binary version
+#export COMPTON_VERSION = 0.1~beta2
+
+%:
+	dh $@
+
+override_dh_auto_clean:
+	@true
