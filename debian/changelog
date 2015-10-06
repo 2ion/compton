@@ -1,4 +1,4 @@
-compton (0.1~beta2+82-1) bunsen-hydrogen; urgency=medium
+compton (0.1~beta2+82-1) jessie-backports; urgency=medium
 
   * Import upstream release from git
 
