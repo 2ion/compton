@@ -73,10 +73,10 @@ Comment:
  Numerous contributions to compton from Richard Grenville.
 
 Files: debian/*
-Copyright: 2015 Jens John <dev@2ion.de>
+Copyright: 2015-2016 Jens John <dev@2ion.de>
 					 2012 Scott Leggett <scott@sl.id.au>
 License: Expat
- Copyright (c) 2015 Jens John
+ Copyright (c) 2015-2016 Jens John
  Copyright (c) 2012 Scott Leggett
  .
  Permission is hereby granted, free of charge, to any person obtaining a copy
